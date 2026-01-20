@@ -7,10 +7,10 @@ export const AppConfig = {
   ENV: import.meta.env.MODE || 'development',
 
   // ===== API =====
-  API_BASE_URL: import.meta.env.VITE_API_URL || 'http://localhost:5000',
+  API_BASE_URL: 'https://c332e0b6-dde6-4bb5-8577-22670f8fe108-3000.app.beam.cloud',
 
   // ===== IMAGES =====
-  IMAGES_BASE_URL: import.meta.env.VITE_IMAGES_URL || 'http://localhost:5000/images/products',
+  IMAGES_BASE_URL: 'https://c332e0b6-dde6-4bb5-8577-22670f8fe108-3000.app.beam.cloud/images/products',
 
   // ===== PAGINATION =====
   PRODUCTS_PER_PAGE: 10,
